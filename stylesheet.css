@@ -1,0 +1,283 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-tile: 'Berkshire Swash', serif;
+    --text-paragraph: 'Noto Sans', sans-serif;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(177, 110, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+    .button-link{
+        appearance: button;
+        padding: 5px 10px;
+        background-color: rgb(229, 141, 194);
+        border: nome;
+        color: rgb(229, 141, 144);
+        text-decoration: none;
+
+    }
+}
+
+.logopessoal {
+    width: 50px;
+}
+
+.cabecalho-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    margin-left: 8px;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.link:active {
+    color: rgb(131, 37, 73);
+}
+
+.inicio {
+    height: 90vh;
+    width: 100%;
+    padding-top: 8vh;
+    background-image: url(l3.jpg);
+    
+}
+
+.titulo {
+   font-style: italic;
+    font-size: 3.2rem;
+    color: rgb(66, 6, 69);
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.sobre {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(180, 50, 158);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-title-Eu {
+    margin-top: 30px;
+    background-color: aliceblue;
+    padding: 10px;
+
+}
+
+.sobre-container {
+    height: 80vh;
+    width: 95%;
+    background-color: rgb(74, 32, 99)240, 255;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sobre-Leia-comigo {
+    height: 5px;
+    width: 30%;
+
+}
+
+.sobre-texto {
+    height: 50vh;
+    width: 45%;
+    padding-left: 10px;
+}
+
+.Leia-comigo {
+    height: 65vh;
+    width: 70%;
+    text-align: justify;
+}
+
+.Livros {
+    height: 60vh;
+    width: 50%;
+    background-color: rgb(201, 133, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leitura-titulo {
+    margin-top: 30px;
+    background-color: aliceblue;
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.leitura-card-imagem {
+    width: 40%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.901);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.wrapper-imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.Darcks{
+    width: 300px;
+}
+
+.leitura-card {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leitura-card-imagem {
+    width: 40%;
+}
+
+.livros-card-imagen{
+    width: 30vw;
+}
+
+.leitura-texto{
+    text-align: center;
+}
+
+.livros {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.CRIE-HABITOS {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(145, 187, 221);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.sub-title{
+    margin-top: 30px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.frame-video {
+    margin-top: 50px;
+}
+
+.Local {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(193, 92, 218);
+}
+
+.Local-titulo {
+    margin-top: 30px;
+    background-color: rgb(138, 38, 192);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Local-Maps-imagem {
+    width: 40%;
+}
+
+
+.Local-Maps {
+    width: 90%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.844);
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Contatos {
+    width: 100%;
+    background-color: rgb(238, 247, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 30px;
+}
+
+.lista-contatos{
+    list-style: none;
+    padding-top: 30px;
+
+    .lista-contatos-item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: var(--text-paragraph);
+        cursor: pointer;
+
+       .list-item-text{
+            padding-left: 8px;
+        }
+    }
+}
+
+.rodape{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(106, 36, 124);
+
+    .rodape-texto{
+        text-align: center;
+    }
+
+    .rodape-link{
+        &:visited{
+            text-decoration: none;
+
+            color: black;
+        }
+    }
+}
